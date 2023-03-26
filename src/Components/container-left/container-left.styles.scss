@@ -1,0 +1,56 @@
+.card-left {
+  background-color: rgb(43, 137, 224);
+  display: flex;
+  flex-direction: column;
+
+  .img {
+    border: none;
+    border-radius: 50%;
+  }
+  .contact-container {
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mail-container {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mail-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    font-size: 28px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: hidden;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgb(4, 120, 136);
+  }
+
+  .p-number-container {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: cente;
+  }
+  .phone-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    font-size: 28px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: hidden;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgb(4, 120, 136);
+  }
+}
