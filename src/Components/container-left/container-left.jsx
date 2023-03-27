@@ -1,12 +1,17 @@
 import "./container-left.styles.scss";
-import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiOutlinePhone,
+  AiOutlineInstagram,
+  AiOutlineGithub,
+} from "react-icons/ai";
 
 export default function HomeLeft() {
   return (
     <div className="card-left">
       <img className="img" src="ja.png" alt="" />
-      <h1>Nikola Lezaic ("komsa")</h1>
-      <h2>IT HELP DESK SUPPORT</h2>
+      <h1 className="name-ln">Nikola Lezaic</h1>
+      <h2 className="title-about">IT HELP DESK SUPPORT</h2>
       <div className="contact-container">
         <h3>CONCTACT</h3>
         <div className="mail-container">
@@ -15,11 +20,26 @@ export default function HomeLeft() {
           </div>
           <a href="mailto:lezaicnikola10@gmail.com">lezaicnikola10@gmail.com</a>
         </div>
+
         <div className="p-number-container">
           <div className="phone-icon">
             <AiOutlinePhone />
           </div>
-          <p>+381 61 6652 987</p>
+          +381 61 6652 987
+        </div>
+
+        <div className="insta-container">
+          <div className="insta-icon">
+            <AiOutlineInstagram />
+          </div>
+          <a href="https://www.instagram.com/lezaic_n/">lezaic_n</a>
+        </div>
+
+        <div className="git-container">
+          <div className="git-icon">
+            <AiOutlineGithub />
+          </div>
+          <a href="https://github.com/Nortagg">Nortagg</a>
         </div>
       </div>
       <div className="skill-container">
