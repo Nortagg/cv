@@ -1,18 +1,92 @@
 .card-right {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 400px;
+  height: auto;
   background-color: rgba(255, 255, 255, 0.795);
-}
-.pp-container {
-  background-color: rgb(160, 211, 241);
-}
-.we-container {
-  background-color: rgb(160, 211, 241);
-}
-.eh-container {
-  background-color: rgb(160, 211, 241);
-}
-.am-container {
-  background-color: rgb(160, 211, 241);
+
+  .pp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 211, 241);
+  }
+  .me-icon {
+    margin-top: 1rem;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pp-text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 16px;
+  }
+  .we-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 211, 241);
+  }
+  .work-icon {
+    margin-top: 1rem;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .date-we1 {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .we-text1 {
+    margin-right: 1rem;
+    font-size: 16px;
+  }
+  .date-we2 {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .we-text2 {
+    margin-right: 1rem;
+    font-size: 16px;
+  }
+  .eh-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 211, 241);
+  }
+  .school-icon {
+    margin-top: 1rem;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eh-text {
+    font-size: 17px;
+  }
+  .am-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 211, 241);
+  }
+  .laptop-icon {
+    margin-top: 1rem;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .am-text {
+    margin-right: 1rem;
+    font-size: 16px;
+  }
 }

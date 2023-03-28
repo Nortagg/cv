@@ -1,35 +1,54 @@
 .card-left {
-  width: 360px;
+  width: 400px;
   height: auto;
   background-color: rgb(23, 112, 196);
   display: flex;
   flex-direction: column;
   color: white;
 
+  .img {
+    display: flex;
+    height: 310px;
+    width: 340px;
+    border-radius: 100%;
+  }
+  .img-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(3, 82, 128, 0.637);
+  }
+
   .name-ln {
+    margin-bottom: 0;
+    text-shadow: 3px 3px 3px #333333;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .title-about {
+    text-shadow: 3px 3px 3px #333333;
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .img {
-    margin-top: 15px;
-    margin-left: 15px;
+  .contact {
+    text-shadow: 2px 2px 3px #333333;
+    height: 50px;
+    background-color: rgba(3, 82, 128, 0.637);
+    font-size: 19px;
     display: flex;
-    height: 315px;
-    width: 330px;
-    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
   .contact-container {
     font-size: 21px;
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -141,5 +160,52 @@
     border: hidden;
     background-color: rgba(255, 255, 255, 0.89);
     color: rgb(44, 128, 206);
+  }
+
+  .skill-title {
+    text-shadow: 2px 2px 3px #333333;
+    height: 50px;
+    background-color: rgba(3, 82, 128, 0.637);
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .hobbies-title {
+    text-shadow: 2px 2px 3px #333333;
+    margin: 0;
+    height: 50px;
+    background-color: rgba(3, 82, 128, 0.637);
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hobbies {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .languages-title {
+    text-shadow: 2px 2px 3px #333333;
+    margin: 0;
+    height: 50px;
+    background-color: rgba(3, 82, 128, 0.637);
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .languages {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
   }
 }

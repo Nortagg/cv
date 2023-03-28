@@ -9,11 +9,13 @@ import {
 export default function HomeLeft() {
   return (
     <div className="card-left">
-      <img className="img" src="ja.png" alt="" />
-      <h1 className="name-ln">Nikola Lezaic</h1>
+      <div className="img-background">
+        <img className="img" src="ja.png" alt="" />
+      </div>
+      <h1 className="name-ln">Nikola Ležaić</h1>
       <h2 className="title-about">IT HELP DESK SUPPORT</h2>
+      <h3 className="contact">CONCTACT</h3>
       <div className="contact-container">
-        <h3>CONCTACT</h3>
         <div className="mail-container">
           <div className="mail-icon">
             <AiOutlineMail />
@@ -42,33 +44,27 @@ export default function HomeLeft() {
           <a href="https://github.com/Nortagg">Nortagg</a>
         </div>
       </div>
-      <div className="skill-container">
-        <h3>SKILLS SUMMARY</h3>
-        <ul>
-          <li>Customer Service</li>
-          <li>Microsoft Office</li>
-          <li>Computer Skills</li>
-          <li>Adaptability</li>
-          <li>Active Listening</li>
-          <li>Highly Organized</li>
-          <li>Ability to Learn Quickly</li>
-          <li>Highly responsible and reliable</li>
-        </ul>
-      </div>
-      <div className="hobbies-container">
-        <h3>HOBBIES</h3>
-        <ul>
-          <li>Gaming</li>
-          <li>Programming</li>
-        </ul>
-      </div>
-      <div className="languages-container">
-        <h3>LANGUAGES</h3>
-        <ul>
-          <li>Serbian - Native</li>
-          <li>English - Advanced</li>
-        </ul>
-      </div>
+      <h3 className="skill-title">SKILLS SUMMARY</h3>
+      <ul className="skills">
+        <li>Customer Service</li>
+        <li>Microsoft Office</li>
+        <li>Computer Skills</li>
+        <li>Adaptability</li>
+        <li>Active Listening</li>
+        <li>Highly Organized</li>
+        <li>Ability to Learn Quickly</li>
+        <li>Highly responsible and reliable</li>
+      </ul>
+      <h3 className="hobbies-title">HOBBIES</h3>
+      <ul className="hobbies">
+        <li>Gaming</li>
+        <li>Programming</li>
+      </ul>
+      <h3 className="languages-title">LANGUAGES</h3>
+      <ul className="languages">
+        <li>Serbian - Native</li>
+        <li>English - Advanced</li>
+      </ul>
     </div>
   );
 }
