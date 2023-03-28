@@ -26,20 +26,25 @@ export default function HomeRight() {
       </div>
       <p className="date-we1">July 2019 - January 2021</p>
       <ul className="we-text1">
-        <li>Professional soldier at Serbian army, Prokuplje.</li>
         <li>
-          Progressed from rank Razvodnik (Distributor) to rank Desetar
-          (Corporal) and achieved very good results in the formation position.
+          I served as a professional soldier in the Serbian Army, stationed in
+          Prokuplje.
+        </li>
+        <li>
+          During my tenure, I was promoted from the rank of Razvodnik
+          (Distributor) to Desetar (Corporal), and consistently achieved
+          outstanding results in my formation position.
         </li>
       </ul>
       <p className="date-we2">August 2021 - March 2022</p>
       <ul className="we-text2">
         <li>Help Desk Representative Level 1 and 2 at NCR, Belgrade</li>
         <li>
-          Worked with on-site Walmart employees to resolve issues with non point
-          of sale software and hardware. Also worked with on-site technicians
-          and Walmart pharmacy employees to resolve software and hardware issues
-          in pharmacy.
+          Collaborated with on-site Walmart employees to effectively
+          troubleshoot and resolve issues related to non-point of sale software
+          and hardware. Additionally, worked closely with on-site technicians
+          and Walmart pharmacy employees to address and resolve software and
+          hardware issues specific to the pharmacy.
         </li>
       </ul>
       <div className="eh-container">
@@ -60,10 +65,12 @@ export default function HomeRight() {
       </div>
       <ul className="am-text">
         <li>
-          I have always been around computers. At first i only used the computer
-          to play games, watch movies, etc. but in the later period of my life i
-          became more and more interested in hardware and software. So i decided
-          to learn more about computers and other 21st century technologies.
+          From a young age, I was exposed to the world of computers and
+          technology. Initially, I used computers primarily for entertainment
+          purposes, such as playing games and watching movies. However, as I
+          grew older, my interest in hardware and software deepened.
+          Consequently, I made a conscious decision to expand my knowledge of
+          computers and other emerging 21st-century technologies.
         </li>
       </ul>
     </div>
