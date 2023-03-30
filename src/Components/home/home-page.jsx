@@ -1,4 +1,4 @@
-import "./container-left.styles.scss";
+import "./home-page.styles.scss";
 import {
   AiOutlinePhone,
   AiOutlineInstagram,
@@ -6,12 +6,11 @@ import {
 } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 
-export default function HomeLeft() {
+export default function HomePage() {
   return (
-    <div className="card-left">
-      <div className="img-background">
-        <img className="img" src="ja.png" alt="" />
-      </div>
+    <div className="home-container">
+      <div className="b-color"></div>
+      <img className="img" src="ja.png" alt="" />
       <h1 className="name-ln">Nikola Ležaić</h1>
       <h2 className="title-about">IT HELP DESK SUPPORT</h2>
       <h3 className="contact">CONTACT</h3>
@@ -48,27 +47,6 @@ export default function HomeLeft() {
           </a>
         </div>
       </div>
-      <h3 className="skill-title">SKILLS SUMMARY</h3>
-      <ul className="skills">
-        <li>Customer Service</li>
-        <li>Microsoft Office</li>
-        <li>Computer Skills</li>
-        <li>Adaptability</li>
-        <li>Active Listening</li>
-        <li>Highly Organized</li>
-        <li>Ability to Learn Quickly</li>
-        <li>Highly responsible and reliable</li>
-      </ul>
-      <h3 className="hobbies-title">HOBBIES</h3>
-      <ul className="hobbies">
-        <li>Gaming</li>
-        <li>Programming</li>
-      </ul>
-      <h3 className="languages-title">LANGUAGES</h3>
-      <ul className="languages">
-        <li>Serbian - Native</li>
-        <li>English - Advanced</li>
-      </ul>
     </div>
   );
 }

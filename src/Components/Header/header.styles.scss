@@ -1,0 +1,45 @@
+.Header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 70px;
+  background: rgb(8, 10, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 171, 192, 0.534) 0%,
+    rgba(34, 29, 29, 0.979) 100%
+  );
+  border-radius: 1rem;
+
+  .Name-Title {
+    display: flex;
+    margin-right: 10rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px black;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 55px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 3rem;
+    margin-right: 1rem;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 55px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3rem;
+    text-decoration: none;
+  }
+}
