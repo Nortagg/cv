@@ -1,22 +1,25 @@
 .card-left {
-  width: 400px;
+  width: 500px;
   height: auto;
   background-color: rgb(23, 112, 196);
   display: flex;
   flex-direction: column;
   color: white;
 
-  .img {
-    display: flex;
-    height: 310px;
-    width: 340px;
-    border-radius: 100%;
-  }
   .img-background {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(3, 82, 128, 0.637);
+  }
+
+  .img {
+    display: flex;
+    height: 320px;
+    width: 350px;
+    border-radius: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .name-ln {
@@ -46,34 +49,20 @@
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .contact-container {
-    font-size: 21px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .mail-container {
-    margin-bottom: 5px;
+
+  .p-number-container {
+    margin-bottom: 1rem;
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    a:link {
-      text-decoration: none;
-    }
-    a {
-      color: rgba(255, 255, 255, 0.822);
-    }
-    a:hover {
-      color: rgb(105, 255, 143);
-    }
   }
-  .mail-icon {
+
+  .phone-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 1rem;
     font-size: 28px;
     border-radius: 50%;
     width: 40px;
@@ -83,18 +72,24 @@
     color: rgb(44, 128, 206);
   }
 
-  .p-number-container {
-    margin-bottom: 5px;
+  .contact-container {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mail-container {
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .phone-icon {
+  .mail-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 3rem;
     font-size: 28px;
     border-radius: 50%;
     width: 40px;
@@ -102,28 +97,26 @@
     border: hidden;
     background-color: rgba(255, 255, 255, 0.89);
     color: rgb(44, 128, 206);
+    transition: background-color 1s linear;
+    transition-property: background-color, color;
+    &:hover {
+      background-color: #333333;
+      color: rgb(255, 238, 0);
+    }
   }
+
   .insta-container {
-    margin-bottom: 5px;
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    a:link {
-      text-decoration: none;
-    }
-    a {
-      color: rgba(255, 255, 255, 0.822);
-    }
-    a:hover {
-      color: rgb(105, 255, 143);
-    }
   }
+
   .insta-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 3rem;
     font-size: 28px;
     border-radius: 50%;
     width: 40px;
@@ -131,28 +124,32 @@
     border: hidden;
     background-color: rgba(255, 255, 255, 0.89);
     color: rgb(44, 128, 206);
+    transition: background-color 1s linear;
+    transition-property: background-color, color, background;
+    &:hover {
+      background-color: #d6249f;
+      background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+      );
+      color: white;
+    }
   }
+
   .git-container {
-    margin-bottom: 5px;
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    a:link {
-      text-decoration: none;
-    }
-    a {
-      color: rgba(255, 255, 255, 0.822);
-    }
-    a:hover {
-      color: rgb(105, 255, 143);
-    }
   }
   .git-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
     font-size: 28px;
     border-radius: 50%;
     width: 40px;
@@ -160,6 +157,12 @@
     border: hidden;
     background-color: rgba(255, 255, 255, 0.89);
     color: rgb(44, 128, 206);
+    transition: background-color 1s linear;
+    transition-property: background-color, color;
+    &:hover {
+      background-color: #333333;
+      color: white;
+    }
   }
 
   .skill-title {

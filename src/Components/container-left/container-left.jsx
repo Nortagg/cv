@@ -15,33 +15,35 @@ export default function HomeLeft() {
       <h1 className="name-ln">Nikola Ležaić</h1>
       <h2 className="title-about">IT HELP DESK SUPPORT</h2>
       <h3 className="contact">CONCTACT</h3>
+      <div className="p-number-container">
+        <div className="phone-icon">
+          <AiOutlinePhone />
+        </div>
+        +381 61 6652 987
+      </div>
       <div className="contact-container">
         <div className="mail-container">
-          <div className="mail-icon">
-            <AiOutlineMail />
-          </div>
-          <a href="mailto:lezaicnikola10@gmail.com">lezaicnikola10@gmail.com</a>
-        </div>
-
-        <div className="p-number-container">
-          <div className="phone-icon">
-            <AiOutlinePhone />
-          </div>
-          +381 61 6652 987
+          <a href="mailto:lezaicnikola10@gmail.com">
+            <div className="mail-icon">
+              <AiOutlineMail />
+            </div>
+          </a>
         </div>
 
         <div className="insta-container">
-          <div className="insta-icon">
-            <AiOutlineInstagram />
-          </div>
-          <a href="https://www.instagram.com/lezaic_n/">lezaic_n</a>
+          <a href="https://www.instagram.com/lezaic_n/">
+            <div className="insta-icon">
+              <AiOutlineInstagram />
+            </div>
+          </a>
         </div>
 
         <div className="git-container">
-          <div className="git-icon">
-            <AiOutlineGithub />
-          </div>
-          <a href="https://github.com/Nortagg">Nortagg</a>
+          <a href="https://github.com/Nortagg">
+            <div className="git-icon">
+              <AiOutlineGithub />
+            </div>
+          </a>
         </div>
       </div>
       <h3 className="skill-title">SKILLS SUMMARY</h3>

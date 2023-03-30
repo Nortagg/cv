@@ -6,9 +6,7 @@ import { FcAbout } from "react-icons/fc";
 export default function HomeRight() {
   return (
     <div className="card-right">
-      <div className="pp-container">
-        <h3>PERSONAL PROFILE</h3>
-      </div>
+      <h3 className="pp-container">PERSONAL PROFILE</h3>
       <div className="me-icon">
         <FcAbout />
       </div>
@@ -16,10 +14,7 @@ export default function HomeRight() {
         Accustomed to handling IT support, managing IT projects, and supporting
         various engineering departments with IT tools and applications.
       </p>
-
-      <div className="we-container">
-        <h3>WORK EXPERIENCE</h3>
-      </div>
+      <h3 className="we-container">WORK EXPERIENCE</h3>
       <div className="work-icon">
         {" "}
         <MdWorkOutline />{" "}
@@ -47,9 +42,7 @@ export default function HomeRight() {
           hardware issues specific to the pharmacy.
         </li>
       </ul>
-      <div className="eh-container">
-        <h3>EDUCATION HISTORY</h3>
-      </div>
+      <h3 className="eh-container">EDUCATION HISTORY</h3>
       <div className="school-icon">
         <IoSchoolOutline />
       </div>
@@ -57,9 +50,7 @@ export default function HomeRight() {
         <li>Tehnička škola ‘Prota Stevan Dimitrijević’, Aleksinac </li>
         <li>Computer electrician, IV degree | 2014 – 2018</li>
       </ul>
-      <div className="am-container">
-        <h3>ABOUT ME</h3>
-      </div>
+      <h3 className="am-container">ABOUT ME</h3>
       <div className="laptop-icon">
         <IoLaptopOutline />
       </div>

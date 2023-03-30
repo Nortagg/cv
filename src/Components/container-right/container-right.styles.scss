@@ -1,7 +1,7 @@
 .card-right {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
   height: auto;
   background-color: rgba(255, 255, 255, 0.795);
 
@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
+    margin: 0;
     background-color: rgb(160, 211, 241);
   }
   .me-icon {
@@ -27,6 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
+    margin: 0;
     background-color: rgb(160, 211, 241);
   }
   .work-icon {
@@ -60,6 +64,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
+    margin: 0;
     background-color: rgb(160, 211, 241);
   }
   .school-icon {
@@ -76,6 +82,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
+    margin: 0;
     background-color: rgb(160, 211, 241);
   }
   .laptop-icon {
