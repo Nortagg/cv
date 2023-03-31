@@ -3,7 +3,8 @@
   flex-direction: column;
   width: 500px;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.658);
+  background-color: rgba(44, 47, 48, 0.966);
+  color: rgb(255, 255, 255);
 
   .pp-container {
     display: flex;
@@ -11,7 +12,11 @@
     align-items: center;
     height: 50px;
     margin: 0;
-    background-color: rgb(160, 211, 241);
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
   }
   .me-icon {
     margin-top: 1rem;
@@ -32,7 +37,11 @@
     align-items: center;
     height: 50px;
     margin: 0;
-    background-color: rgb(160, 211, 241);
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
   }
   .work-icon {
     margin-top: 1rem;
@@ -72,7 +81,11 @@
     align-items: center;
     height: 50px;
     margin: 0;
-    background-color: rgb(160, 211, 241);
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
   }
   .school-icon {
     margin-top: 1rem;
@@ -91,7 +104,11 @@
     align-items: center;
     height: 50px;
     margin: 0;
-    background-color: rgb(160, 211, 241);
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
   }
   .laptop-icon {
     margin-top: 1rem;

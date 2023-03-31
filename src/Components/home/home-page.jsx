@@ -31,7 +31,7 @@ export default function HomePage() {
         </div>
 
         <div className="insta-container">
-          <a href="https://www.instagram.com/lezaic_n/">
+          <a target="_blank" href="https://www.instagram.com/lezaic_n/">
             <div className="insta-icon">
               <AiOutlineInstagram />
             </div>
@@ -40,7 +40,7 @@ export default function HomePage() {
         </div>
 
         <div className="git-container">
-          <a href="https://github.com/Nortagg">
+          <a target="_blank" href="https://github.com/Nortagg">
             <div className="git-icon">
               <AiOutlineGithub />
             </div>

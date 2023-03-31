@@ -1,0 +1,69 @@
+.card-about {
+  width: 500px;
+  background-color: rgba(44, 47, 48, 0.966);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+
+  .skill-title {
+    text-shadow: 2px 2px 3px #333333;
+    height: 50px;
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 0;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+  .hobbies-title {
+    text-shadow: 2px 2px 3px #333333;
+    margin: 0;
+    height: 50px;
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hobbies {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+  .languages-title {
+    text-shadow: 2px 2px 3px #333333;
+    margin: 0;
+    height: 50px;
+    background: rgb(8, 10, 10);
+    background: conic-gradient(
+      rgba(1, 81, 92, 0.534) 0deg 180deg,
+      rgba(70, 70, 70, 0.979) 180deg 360deg
+    );
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .languages {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+}

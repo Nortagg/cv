@@ -1,9 +1,9 @@
-import "./container-right.styles.scss";
+import "./container-profile.styles.scss";
 import { IoSchoolOutline, IoLaptopOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
 import { FcAbout } from "react-icons/fc";
 
-export default function HomeRight() {
+export default function CardProfile() {
   return (
     <div className="card-right">
       <h3 className="pp-container">PERSONAL PROFILE</h3>
