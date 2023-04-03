@@ -6,7 +6,7 @@ export default function Header() {
       <Link className="Name-Title" to="/">
         Nikola Ležaić
         <div className="sub-title">
-          <span className="line">|</span> Home
+          <span className="line">/</span> Home
         </div>
       </Link>
       <div className="links">

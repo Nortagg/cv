@@ -8,19 +8,19 @@
     rgba(1, 81, 92, 0.534) 0deg 180deg,
     rgba(70, 70, 70, 0.979) 180deg 360deg
   );
-  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.9), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 2px rgb(0, 0, 0);
   color: white;
   margin-top: 5rem;
   border-radius: 1rem;
+  letter-spacing: 1px;
   .img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 320px;
+    height: 330px;
     width: 350px;
     border-radius: 100%;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .name-ln {
@@ -37,6 +37,7 @@
     align-items: center;
     text-shadow: 3px 3px 3px #333333;
     font-size: 25px;
+    margin-top: 0.6rem;
   }
 
   .contact {
@@ -51,6 +52,7 @@
     font-size: 19px;
     margin-top: 0;
     margin-bottom: 1rem;
+    box-shadow: 0px 0.5px 2px rgb(0, 0, 0);
   }
 
   .p-number-container {
@@ -65,9 +67,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1rem;
     font-size: 28px;
     border-radius: 50%;
+    margin-right: 5px;
     width: 40px;
     height: 40px;
     border: hidden;
