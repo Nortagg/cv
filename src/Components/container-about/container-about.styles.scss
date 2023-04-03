@@ -7,6 +7,7 @@
   margin-top: 3.5rem;
   padding: 10px;
   box-shadow: 0px 1px 3px black;
+  border-radius: 0.5rem;
 
   .skill-title {
     text-shadow: 2px 2px 3px #000000;
@@ -24,6 +25,13 @@
     margin: 0;
     margin-bottom: 0;
     line-height: 1.4;
+  }
+  .skills-icon {
+    margin-top: 0.5rem;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills {
     display: flex;
@@ -47,6 +55,13 @@
     justify-content: center;
     line-height: 1.4;
   }
+  .hobbies-icon {
+    margin-top: 0.5rem;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .hobbies {
     display: flex;
     flex-direction: column;
@@ -68,6 +83,13 @@
     align-items: center;
     justify-content: center;
     line-height: 1.4;
+  }
+  .languages-icon {
+    margin-top: 0.5rem;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .languages {
     display: flex;

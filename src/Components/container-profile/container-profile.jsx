@@ -1,7 +1,7 @@
 import "./container-profile.styles.scss";
 import { IoSchoolOutline, IoLaptopOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
-import { FcAbout } from "react-icons/fc";
+import { BsPerson } from "react-icons/bs";
 
 export default function CardProfile() {
   return (
@@ -9,7 +9,7 @@ export default function CardProfile() {
       <div className="profile-left">
         <h3 className="pp-container">PERSONAL PROFILE</h3>
         <div className="me-icon">
-          <FcAbout />
+          <BsPerson />
         </div>
         <p className="pp-text">
           Accustomed to handling IT support, managing IT projects, and
