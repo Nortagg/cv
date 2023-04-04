@@ -1,12 +1,31 @@
 .card-profile {
   display: flex;
+  flex-direction: column;
   background-color: rgba(44, 47, 48, 0.966);
   color: rgb(255, 255, 255);
   width: 55%;
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   box-shadow: 0px 1px 3px black;
   border-radius: 0.5rem;
 
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(
+      rgba(70, 70, 70, 0.9) 0deg 180deg,
+      rgba(1, 80, 90, 0.9) 180deg 360deg
+    );
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px #000000;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .wraper {
+    display: flex;
+  }
   .profile-left {
     display: flex;
     flex-direction: column;
@@ -26,9 +45,10 @@
         rgba(70, 70, 70, 0.979) 180deg 360deg
       );
       box-shadow: 0px 1px 3px black;
+      text-shadow: 2px 2px 3px #000000;
     }
     .me-icon {
-      margin-top: 1rem;
+      padding: 10px;
       font-size: 25px;
       display: flex;
       align-items: center;
@@ -53,11 +73,11 @@
         rgba(70, 70, 70, 0.979) 180deg 360deg
       );
       box-shadow: 0px 1px 3px black;
+      text-shadow: 2px 2px 3px #000000;
     }
     .work-icon {
-      margin-top: 1rem;
+      padding: 10px;
       font-size: 25px;
-      line-height: 1.4;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -73,6 +93,9 @@
       margin-right: 1rem;
       font-size: 16px;
       line-height: 1.4;
+      li {
+        margin-bottom: 10px;
+      }
     }
     .date-we2 {
       margin-bottom: 0;
@@ -85,6 +108,9 @@
       margin-right: 1rem;
       font-size: 16px;
       line-height: 1.4;
+      li {
+        margin-bottom: 10px;
+      }
     }
   }
   .profile-right {
@@ -106,9 +132,10 @@
         rgba(70, 70, 70, 0.979) 180deg 360deg
       );
       box-shadow: 0px 1px 3px black;
+      text-shadow: 2px 2px 3px #000000;
     }
     .school-icon {
-      margin-top: 1rem;
+      padding: 10px;
       font-size: 25px;
       display: flex;
       align-items: center;
@@ -117,6 +144,9 @@
     .eh-text {
       font-size: 17px;
       line-height: 1.4;
+      li {
+        margin-bottom: 8.5px;
+      }
     }
     .am-container {
       display: flex;
@@ -125,16 +155,16 @@
       width: 100%;
       height: 50px;
       margin: 0;
-      margin-top: 17px;
       background: rgb(8, 10, 10);
       background: conic-gradient(
         rgba(1, 81, 92, 0.534) 0deg 180deg,
         rgba(70, 70, 70, 0.979) 180deg 360deg
       );
       box-shadow: 0px 1px 3px black;
+      text-shadow: 2px 2px 3px #000000;
     }
     .laptop-icon {
-      margin-top: 1rem;
+      padding: 10px;
       font-size: 25px;
       display: flex;
       align-items: center;

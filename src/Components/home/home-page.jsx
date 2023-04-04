@@ -9,7 +9,7 @@ import { SiGmail } from "react-icons/si";
 export default function HomePage() {
   return (
     <div className="home-container">
-      <div className="b-color"></div>
+      <div className="welcome">Welcome</div>
       <img className="img" src="ja.png" alt="" />
       <h1 className="name-ln">Nikola Ležaić</h1>
       <h2 className="title-about">IT HELP DESK SUPPORT</h2>
