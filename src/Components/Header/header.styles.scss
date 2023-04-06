@@ -76,8 +76,8 @@
       font-size: 19px;
       color: white;
       text-shadow: 2px 2px 3px #333333;
+      box-shadow: 1px 1px 6px rgb(0, 0, 0);
       text-decoration: none;
-      border: solid 1px rgb(0, 0, 0);
       border-radius: 3rem;
       &:hover {
         background-color: rgb(48, 45, 45);
@@ -97,7 +97,7 @@
       font-size: 19px;
       color: white;
       text-shadow: 2px 2px 3px #333333;
-      border: solid 1px rgb(0, 0, 0);
+      box-shadow: 1px 1px 6px rgb(0, 0, 0);
       border-radius: 3rem;
       text-decoration: none;
       &:hover {
