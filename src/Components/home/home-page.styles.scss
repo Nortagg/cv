@@ -46,10 +46,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 330px;
-    width: 350px;
-    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 99%;
     margin-top: 2rem;
+    object-fit: cover;
   }
 
   .name-ln {
@@ -113,107 +114,107 @@
     align-items: center;
     font-size: 20px;
     margin-bottom: 1rem;
-  }
 
-  .mail-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    margin-right: 1rem;
-    font-size: 30px;
-  }
-  .mail-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-    font-size: 28px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    border: hidden;
-    background-color: rgba(10, 171, 192, 0.534);
-    color: rgb(255, 255, 255);
-    transition: background-color 1s linear;
-    transition-property: background-color, color;
-    &:hover {
-      background-color: black;
-      color: rgba(255, 0, 0, 0.705);
+    .mail-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-right: 1rem;
+      font-size: 30px;
     }
-    &:active {
-      position: relative;
-      top: 1px;
+    .mail-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      font-size: 28px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      border: hidden;
+      background-color: rgba(10, 171, 192, 0.534);
+      color: rgb(255, 255, 255);
+      transition: background-color 1s linear;
+      transition-property: background-color, color;
+      &:hover {
+        background-color: black;
+        color: rgba(255, 0, 0, 0.705);
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
     }
-  }
 
-  .insta-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    margin-right: 1rem;
-    font-size: 30px;
-  }
+    .insta-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-right: 1rem;
+      font-size: 30px;
+    }
 
-  .insta-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-    font-size: 28px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    border: hidden;
-    background-color: rgba(10, 171, 192, 0.534);
-    color: rgb(255, 255, 255);
-    transition: background-color 1s linear;
-    transition-property: background-color, color, background;
-    &:hover {
-      background-color: #d6249f;
-      background: radial-gradient(
-        circle at 30% 107%,
-        #fdf497 0%,
-        #fdf497 5%,
-        #fd5949 45%,
-        #d6249f 60%,
-        #285aeb 90%
-      );
-      color: white;
+    .insta-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      font-size: 28px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      border: hidden;
+      background-color: rgba(10, 171, 192, 0.534);
+      color: rgb(255, 255, 255);
+      transition: background-color 1s linear;
+      transition-property: background-color, color, background;
+      &:hover {
+        background-color: #d6249f;
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+        color: white;
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
     }
-    &:active {
-      position: relative;
-      top: 1px;
-    }
-  }
 
-  .git-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-  }
-  .git-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    border: hidden;
-    background-color: rgba(10, 171, 192, 0.534);
-    color: rgb(253, 253, 253);
-    transition: background-color 1s linear;
-    transition-property: background-color, color;
-    &:hover {
-      background-color: #333333;
-      color: white;
+    .git-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
     }
-    &:active {
-      position: relative;
-      top: 1px;
+    .git-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      border: hidden;
+      background-color: rgba(10, 171, 192, 0.534);
+      color: rgb(253, 253, 253);
+      transition: background-color 1s linear;
+      transition-property: background-color, color;
+      &:hover {
+        background-color: #333333;
+        color: white;
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
     }
   }
 }

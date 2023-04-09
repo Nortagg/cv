@@ -1,0 +1,307 @@
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  width: 81vh;
+  height: 80vh;
+  margin-top: 5rem;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(
+      rgba(70, 70, 70, 0.9) 0deg 180deg,
+      rgba(1, 80, 90, 0.9) 180deg 360deg
+    );
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px #000000;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    font-size: 25px;
+    z-index: 1;
+    font-weight: bold;
+    color: white;
+  }
+
+  .phone-wraper,
+  .email-wraper,
+  .github-wraper,
+  .instagram-wraper {
+    padding: 3px;
+  }
+  .grid-wraper {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    width: 80vh;
+    height: 80vh;
+    padding: 4px;
+    text-align: center;
+    background-color: rgba(1, 80, 90, 0.9);
+    box-shadow: 0px 1px 2px rgb(0, 0, 0);
+    color: white;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-decoration: none;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.9);
+      border-radius: 0.5rem;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      margin-bottom: 40px;
+      width: 80px;
+      height: 80px;
+      font-size: 50px;
+      background-color: rgba(10, 171, 192, 0.534);
+      color: rgb(255, 255, 255);
+      border-radius: 100%;
+      &.instagram-icon {
+        transition: background-color 1s linear;
+        transition-property: background-color, color, background;
+        &:hover {
+          background-color: #d6249f;
+          background: radial-gradient(
+            circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285aeb 90%
+          );
+          color: white;
+          &:active {
+            position: relative;
+            top: 1px;
+          }
+        }
+      }
+      &.github-icon {
+        &:hover {
+          transition: background-color 1s linear;
+          transition-property: background-color, color;
+          &:hover {
+            background-color: #333333;
+            color: white;
+          }
+          &:active {
+            position: relative;
+            top: 1px;
+          }
+        }
+      }
+      &.email-icon {
+        transition: background-color 1s linear;
+        transition-property: background-color, color;
+        &:hover {
+          background-color: black;
+          color: rgba(255, 0, 0, 0.705);
+          &:active {
+            position: relative;
+            top: 1px;
+          }
+        }
+      }
+    }
+    .phone-text {
+      color: rgb(255, 255, 255);
+    }
+    p {
+      display: flex;
+      margin: 0;
+    }
+    .text {
+      font-size: 20px;
+      background-color: rgb(0, 0, 0);
+      border-radius: 0.5rem 0rem 0.5rem 0rem;
+      padding: 0px 10px 0px 10px;
+      word-break: keep-all;
+      margin-bottom: 95px;
+      &.instagram-text,
+      &.github-text,
+      &.email-text {
+        &:hover {
+          color: rgb(96, 100, 96);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 740px) {
+  .contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    width: 41.7vh;
+    height: 39vh;
+    margin-top: 5rem;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .contact-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: conic-gradient(
+        rgba(70, 70, 70, 0.9) 0deg 180deg,
+        rgba(1, 80, 90, 0.9) 180deg 360deg
+      );
+      box-shadow: 1px 1px 15px rgb(0, 0, 0);
+      text-shadow: 2px 2px 3px #000000;
+      width: 100%;
+      border-radius: 0.5rem 0.5rem 0rem 0rem;
+      font-size: 16px;
+      z-index: 1;
+      font-weight: bold;
+      color: white;
+    }
+
+    .phone-wraper,
+    .email-wraper,
+    .github-wraper,
+    .instagram-wraper {
+      padding: 3px;
+    }
+    .grid-wraper {
+      display: grid;
+      grid-template-columns: 1.5fr 1.5fr;
+      width: 41vh;
+      height: 34vh;
+      padding: 2px;
+      text-align: center;
+      background-color: rgba(1, 80, 90, 0.8);
+      box-shadow: 0px 1px 2px rgb(0, 0, 0);
+      color: white;
+      border-radius: 0rem 0rem 0.5rem 0.5rem;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 0.5rem;
+      }
+
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        background-color: rgba(10, 171, 192, 0.534);
+        color: rgb(255, 255, 255);
+        border-radius: 100%;
+        &.instagram-icon {
+          transition: background-color 1s linear;
+          transition-property: background-color, color, background;
+          &:hover {
+            background-color: #d6249f;
+            background: radial-gradient(
+              circle at 30% 107%,
+              #fdf497 0%,
+              #fdf497 5%,
+              #fd5949 45%,
+              #d6249f 60%,
+              #285aeb 90%
+            );
+            color: white;
+            &:active {
+              position: relative;
+              top: 1px;
+            }
+          }
+        }
+        &.github-icon {
+          &:hover {
+            transition: background-color 1s linear;
+            transition-property: background-color, color;
+            &:hover {
+              background-color: #333333;
+              color: white;
+            }
+            &:active {
+              position: relative;
+              top: 1px;
+            }
+          }
+        }
+        &.email-icon {
+          transition: background-color 1s linear;
+          transition-property: background-color, color;
+          &:hover {
+            background-color: black;
+            color: rgba(255, 0, 0, 0.705);
+            &:active {
+              position: relative;
+              top: 1px;
+            }
+          }
+        }
+      }
+      .phone-text {
+        color: rgb(255, 255, 255);
+      }
+      p {
+        display: flex;
+        margin: 0;
+      }
+      .text {
+        font-size: 12px;
+        background-color: rgb(17, 17, 17);
+        border-radius: 0.5rem 0rem 0.5rem 0rem;
+        padding: 0px 5px 0px 5px;
+
+        margin-bottom: 45px;
+        &.instagram-text,
+        &.github-text,
+        &.email-text {
+          &:hover {
+            color: rgb(65, 66, 65);
+          }
+        }
+      }
+    }
+  }
+}
