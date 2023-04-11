@@ -1,10 +1,12 @@
 .card-about {
   display: flex;
   flex-direction: column;
-  width: 50vh;
+  position: absolute;
+  top: 7rem;
+  width: 24%;
   background-color: rgba(44, 47, 48, 0.966);
   color: rgb(255, 255, 255);
-  margin-top: 5rem;
+
   box-shadow: 0px 1px 3px black;
   border-radius: 0.5rem;
   opacity: 0;
@@ -141,156 +143,6 @@
       font-size: 20px;
       li {
         margin-bottom: 8px;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .card-about {
-    display: flex;
-    flex-direction: column;
-    width: 40vh;
-    background-color: rgba(44, 47, 48, 0.966);
-    color: rgb(255, 255, 255);
-    margin-top: 5rem;
-    box-shadow: 0px 1px 3px black;
-    border-radius: 0.5rem;
-    opacity: 0;
-    animation: fadeLeftToRight 1s ease forwards;
-
-    @keyframes fadeLeftToRight {
-      from {
-        opacity: 0;
-        transform: translateX(-100px);
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
-    .about {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: conic-gradient(
-        rgba(70, 70, 70, 0.9) 0deg 180deg,
-        rgba(1, 80, 90, 0.9) 180deg 360deg
-      );
-      box-shadow: 1px 1px 15px rgb(0, 0, 0);
-      text-shadow: 2px 2px 3px #000000;
-      width: 100%;
-      border-radius: 0.5rem 0.5rem 0rem 0rem;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    .wraper-about {
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-
-      .skill-title {
-        text-shadow: 2px 2px 3px #000000;
-        box-shadow: 0px 1px 3px black;
-        height: 40px;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
-        border-radius: 0.5rem 0rem 0.5rem 0rem;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        margin-bottom: 0;
-        line-height: 1.4;
-
-        .skills-icon {
-          padding: 10px;
-          font-size: 20px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      }
-      .skills {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.4;
-        font-size: 16px;
-        li {
-          margin-bottom: 8px;
-        }
-      }
-      .hobbies-title {
-        text-shadow: 2px 2px 3px #000000;
-        box-shadow: 0px 1px 3px black;
-        margin: 0;
-        height: 40px;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
-        border-radius: 0.5rem 0rem 0.5rem 0rem;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 1.4;
-
-        .hobbies-icon {
-          padding: 10px;
-          font-size: 20px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      }
-      .hobbies {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.4;
-        font-size: 16px;
-        li {
-          margin-bottom: 8px;
-        }
-      }
-      .languages-title {
-        text-shadow: 2px 2px 3px #000000;
-        box-shadow: 0px 1px 3px black;
-        margin: 0;
-        height: 40px;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
-        border-radius: 0.5rem 0rem 0.5rem 0rem;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 1.4;
-
-        .languages-icon {
-          padding: 10px;
-          font-size: 20px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      }
-      .languages {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.4;
-        font-size: 16px;
-        li {
-          margin-bottom: 8px;
-        }
       }
     }
   }
