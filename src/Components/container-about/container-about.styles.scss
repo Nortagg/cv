@@ -3,8 +3,8 @@
   flex-direction: column;
   position: absolute;
   top: 7rem;
-  width: 24%;
-  background-color: rgba(44, 47, 48, 0.966);
+  width: 25%;
+  background-color: #6d5a2fc2;
   color: rgb(255, 255, 255);
 
   box-shadow: 0px 1px 3px black;
@@ -22,13 +22,36 @@
       transform: translateX(0);
     }
   }
+  @media only screen and (max-width: 1280px) {
+    width: 35%;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 45%;
+  }
+  @media only screen and (max-width: 912px) {
+    width: 55%;
+  }
+  @media only screen and (max-width: 540px) {
+    width: 75%;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 85%;
+  }
+  @media only screen and (max-width: 375px) {
+    width: 80%;
+  }
+  @media only screen and (max-width: 280px) {
+    width: 85%;
+    top: 5rem;
+  }
+
   .about {
     display: flex;
     align-items: center;
     justify-content: center;
     background: conic-gradient(
-      rgba(70, 70, 70, 0.9) 0deg 180deg,
-      rgba(1, 80, 90, 0.9) 180deg 360deg
+      #6d5a2fc2 0deg 180deg,
+      rgba(5, 5, 5, 0.8) 180deg 360deg
     );
     box-shadow: 1px 1px 15px rgb(0, 0, 0);
     text-shadow: 2px 2px 3px #000000;
@@ -36,6 +59,12 @@
     border-radius: 0.5rem 0.5rem 0rem 0rem;
     font-size: 25px;
     font-weight: bold;
+    @media only screen and (max-width: 414px) {
+      font-size: 20px;
+    }
+    @media only screen and (max-width: 375px) {
+      font-size: 18px;
+    }
   }
   .wraper-about {
     display: flex;
@@ -46,11 +75,7 @@
       text-shadow: 2px 2px 3px #000000;
       box-shadow: 0px 1px 3px black;
       height: 50px;
-      background: rgb(8, 10, 10);
-      background: conic-gradient(
-        rgba(1, 81, 92, 0.534) 0deg 180deg,
-        rgba(70, 70, 70, 0.979) 180deg 360deg
-      );
+      background-color: rgba(5, 5, 5, 0.815);
       border-radius: 0.5rem 0rem 0.5rem 0rem;
       font-size: 19px;
       display: flex;
@@ -58,7 +83,17 @@
       justify-content: center;
       margin: 0;
       margin-bottom: 0;
-      line-height: 1.4;
+      @media only screen and (max-width: 414px) {
+        height: 35px;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 375px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 280px) {
+        height: 25px;
+        font-size: 14px;
+      }
 
       .skills-icon {
         padding: 10px;
@@ -66,6 +101,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media only screen and (max-width: 375px) {
+          padding: 8px;
+          font-size: 20px;
+        }
       }
     }
     .skills {
@@ -73,6 +112,16 @@
       flex-direction: column;
       line-height: 1.4;
       font-size: 20px;
+      @media only screen and (max-width: 414px) {
+        font-size: 17px;
+      }
+      @media only screen and (max-width: 375px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 280px) {
+        font-size: 14px;
+        padding: 0px 0px 0px 20px;
+      }
       li {
         margin-bottom: 8px;
       }
@@ -82,17 +131,20 @@
       box-shadow: 0px 1px 3px black;
       margin: 0;
       height: 50px;
-      background: rgb(8, 10, 10);
-      background: conic-gradient(
-        rgba(1, 81, 92, 0.534) 0deg 180deg,
-        rgba(70, 70, 70, 0.979) 180deg 360deg
-      );
+      background-color: rgba(5, 5, 5, 0.815);
       border-radius: 0.5rem 0rem 0.5rem 0rem;
       font-size: 19px;
       display: flex;
       align-items: center;
       justify-content: center;
-      line-height: 1.4;
+      @media only screen and (max-width: 414px) {
+        height: 35px;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 280px) {
+        height: 25px;
+        font-size: 14px;
+      }
 
       .hobbies-icon {
         padding: 10px;
@@ -100,6 +152,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media only screen and (max-width: 375px) {
+          padding: 8px;
+          font-size: 20px;
+        }
       }
     }
     .hobbies {
@@ -107,6 +163,16 @@
       flex-direction: column;
       line-height: 1.4;
       font-size: 20px;
+      @media only screen and (max-width: 414px) {
+        font-size: 17px;
+      }
+      @media only screen and (max-width: 375px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 280px) {
+        font-size: 14px;
+        padding: 0px 0px 0px 20px;
+      }
       li {
         margin-bottom: 8px;
       }
@@ -116,17 +182,23 @@
       box-shadow: 0px 1px 3px black;
       margin: 0;
       height: 50px;
-      background: rgb(8, 10, 10);
-      background: conic-gradient(
-        rgba(1, 81, 92, 0.534) 0deg 180deg,
-        rgba(70, 70, 70, 0.979) 180deg 360deg
-      );
+      background-color: rgba(5, 5, 5, 0.815);
       border-radius: 0.5rem 0rem 0.5rem 0rem;
       font-size: 19px;
       display: flex;
       align-items: center;
       justify-content: center;
-      line-height: 1.4;
+      @media only screen and (max-width: 414px) {
+        height: 35px;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 375px) {
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 280px) {
+        height: 25px;
+        font-size: 14px;
+      }
 
       .languages-icon {
         padding: 10px;
@@ -134,6 +206,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media only screen and (max-width: 375px) {
+          padding: 8px;
+          font-size: 20px;
+        }
       }
     }
     .languages {
@@ -141,6 +217,16 @@
       flex-direction: column;
       line-height: 1.4;
       font-size: 20px;
+      @media only screen and (max-width: 414px) {
+        font-size: 17px;
+      }
+      @media only screen and (max-width: 375px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 280px) {
+        font-size: 14px;
+        padding: 0px 0px 0px 20px;
+      }
       li {
         margin-bottom: 8px;
       }

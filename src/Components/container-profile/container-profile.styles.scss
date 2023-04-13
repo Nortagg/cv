@@ -3,7 +3,10 @@
   flex-direction: column;
   position: absolute;
   top: 7rem;
-  background-color: rgba(44, 47, 48, 0.966);
+  background: conic-gradient(
+    rgba(5, 5, 5, 0.6) 0deg 180deg,
+    #6d5a2fc2 180deg 360deg
+  );
   color: rgb(255, 255, 255);
   width: 55%;
   box-shadow: 0px 1px 3px black;
@@ -58,8 +61,8 @@
     align-items: center;
     justify-content: center;
     background: conic-gradient(
-      rgba(70, 70, 70, 0.9) 0deg 180deg,
-      rgba(1, 80, 90, 0.9) 180deg 360deg
+      #6d5a2fc2 0deg 180deg,
+      rgba(5, 5, 5, 0.8) 180deg 360deg
     );
     box-shadow: 1px 1px 15px rgb(0, 0, 0);
     text-shadow: 2px 2px 3px #000000;
@@ -99,11 +102,7 @@
         height: 50px;
         width: 100%;
         margin: 0;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
+        background-color: rgba(5, 5, 5, 0.815);
         box-shadow: 0px 1px 3px black;
         text-shadow: 2px 2px 3px #000000;
         border-radius: 0.5rem 0rem 0.5rem 0rem;
@@ -153,11 +152,7 @@
         width: 100%;
         height: 50px;
         margin: 0;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
+        background-color: rgba(5, 5, 5, 0.815);
         box-shadow: 0px 1px 3px black;
         text-shadow: 2px 2px 3px #000000;
         border-radius: 0.5rem 0rem 0.5rem 0rem;
@@ -270,11 +265,7 @@
         width: 100%;
         height: 50px;
         margin: 0;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
+        background-color: #6d5a2fc2;
         box-shadow: 0px 1px 3px black;
         text-shadow: 2px 2px 3px #000000;
         border-radius: 0.5rem 0rem 0.5rem 0rem;
@@ -331,11 +322,7 @@
         width: 100%;
         height: 50px;
         margin: 0;
-        background: rgb(8, 10, 10);
-        background: conic-gradient(
-          rgba(1, 81, 92, 0.534) 0deg 180deg,
-          rgba(70, 70, 70, 0.979) 180deg 360deg
-        );
+        background-color: #6d5a2fc2;
         box-shadow: 0px 1px 3px black;
         text-shadow: 2px 2px 3px #000000;
         border-radius: 0.5rem 0rem 0.5rem 0rem;

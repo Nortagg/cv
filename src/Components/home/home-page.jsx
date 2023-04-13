@@ -8,20 +8,20 @@ import { SiGmail } from "react-icons/si";
 
 export default function HomePage() {
   return (
-    <div className="home-container">
-      <div className="welcome">Welcome</div>
+    <div className="home-wraper">
+      <div className="welcome-bar-on-top">Welcome</div>
       <img className="img" src="ja.png" alt="" />
-      <h1 className="name-ln">Nikola Ležaić</h1>
-      <h2 className="title-about">IT HELP DESK SUPPORT</h2>
-      <h3 className="contact">CONTACT</h3>
-      <div className="p-number-container">
+      <h1 className="title-name-nl">Nikola Ležaić</h1>
+      <h2 className="title-proffesion">IT HELP DESK SUPPORT</h2>
+      <h3 className="contact-bar">CONTACT</h3>
+      <div className="phone-number-container">
         <div className="phone-icon">
           <AiOutlinePhone />
         </div>
         +381 61 6652 987
       </div>
-      <div className="contact-container">
-        <div className="mail-container">
+      <div className="mail-instagram-git-wraper">
+        <div className="mail-link-icon-line-container">
           <a href="mailto:lezaicnikola10@gmail.com">
             <div className="mail-icon">
               <SiGmail />
@@ -30,7 +30,7 @@ export default function HomePage() {
           |
         </div>
 
-        <div className="insta-container">
+        <div className="insta-link-icon-line-container">
           <a target="_blank" href="https://www.instagram.com/lezaic_n/">
             <div className="insta-icon">
               <AiOutlineInstagram />
@@ -39,7 +39,7 @@ export default function HomePage() {
           |
         </div>
 
-        <div className="git-container">
+        <div className="git-link-icon-container">
           <a target="_blank" href="https://github.com/Nortagg">
             <div className="git-icon">
               <AiOutlineGithub />

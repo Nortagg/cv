@@ -1,19 +1,24 @@
-.Header-container {
+.header-wraper {
   display: flex;
   position: absolute;
-  top: 0px;
+  top: 0;
   justify-content: space-between;
   width: 100%;
-  height: 60px;
-  background: rgb(8, 10, 10);
+  height: 55px;
   background: conic-gradient(
-    rgba(1, 81, 92, 0.534) 0deg 180deg,
-    rgba(70, 70, 70, 0.979) 180deg 360deg
+    rgba(5, 5, 5, 0.6) 0deg 180deg,
+    #6d5a2fc2 180deg 360deg
   );
   box-shadow: 1px 1px 2px rgb(0, 0, 0);
   border-radius: 0rem 0rem 1rem 1rem;
+  @media only screen and (max-width: 550px) {
+    height: 45px;
+  }
+  @media only screen and (max-width: 280px) {
+    height: 40px;
+  }
 
-  .Name-Title {
+  .name-title-left {
     display: flex;
     align-items: center;
     margin-left: 2rem;
@@ -26,13 +31,14 @@
       .home {
         display: flex;
         margin-left: 1rem;
-        color: rgb(255, 255, 255);
+        color: rgba(200, 202, 218, 0.863);
       }
       .line {
         display: flex;
         margin-right: 1rem;
+        color: #ffffff;
       }
-      color: rgba(1, 225, 255, 0.692);
+      color: rgba(200, 202, 218, 0.863);
     }
     &:active {
       position: relative;
@@ -41,24 +47,35 @@
     .home {
       display: none;
     }
+    @media only screen and (max-width: 550px) {
+      font-size: 14px;
+    }
+    @media only screen and (max-width: 375px) {
+      font-size: 11px;
+      margin-left: 0.5rem;
+    }
   }
 
-  .links {
+  .links-container-right {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
     margin-right: 1rem;
+    @media only screen and (max-width: 550px) {
+      gap: 0.4rem;
+      margin-right: 0.5rem;
+    }
 
-    .profile,
-    .about,
-    .contact {
+    .profile-route-text,
+    .about-route-text,
+    .contact-route-text {
       display: flex;
       align-items: center;
       justify-content: center;
       height: 35px;
       width: 90px;
-      background-color: rgba(70, 70, 70, 0.979);
+      background-color: #6d5a2fc2;
       font-size: 19px;
       color: rgb(255, 255, 255);
       text-shadow: 2px 2px 3px #333333;
@@ -66,99 +83,26 @@
       text-decoration: none;
       border-radius: 3rem;
       &:hover {
-        background-color: rgb(48, 45, 45);
+        background-color: #ac9971c2;
       }
       &:active {
         position: relative;
         top: 1px;
       }
-    }
-  }
-}
-@media only screen and (max-width: 550px) {
-  .Header-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
-    background: rgb(8, 10, 10);
-    background: conic-gradient(
-      rgba(1, 81, 92, 0.534) 0deg 180deg,
-      rgba(70, 70, 70, 0.979) 180deg 360deg
-    );
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    border-radius: 0rem 0rem 1rem 1rem;
-    @media only screen and (max-width: 280px) {
-      height: 45px;
-    }
-    .Name-Title {
-      display: flex;
-      align-items: center;
-      margin-left: 1rem;
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      font-size: 14px;
-      font-weight: bold;
-      text-shadow: 2px 2px 3px black;
-      &:hover {
-        .home {
-          display: flex;
-          margin-left: 1rem;
-          color: rgb(255, 255, 255);
-        }
-        .line {
-          display: flex;
-          margin-right: 1rem;
-        }
-        color: rgba(1, 225, 255, 0.692);
-      }
-      &:active {
-        position: relative;
-        top: 1px;
-      }
-      .home {
-        display: none;
+      @media only screen and (max-width: 550px) {
+        height: 25px;
+        width: 55px;
+        font-size: 14px;
       }
       @media only screen and (max-width: 375px) {
-        font-size: 11px;
-        margin-left: 0.5rem;
+        font-size: 12px;
+        height: 20px;
+        width: 46px;
       }
-    }
-
-    .links {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.4rem;
-      margin-right: 0.5rem;
-
-      .profile,
-      .about,
-      .contact {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 25px;
-        width: 54px;
-        background-color: rgba(70, 70, 70, 0.979);
-        font-size: 13px;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 3px #333333;
-        box-shadow: 1px 1px 6px rgb(0, 0, 0);
-        text-decoration: none;
-        border-radius: 3rem;
-        &:hover {
-          background-color: rgb(48, 45, 45);
-        }
-        &:active {
-          position: relative;
-          top: 1px;
-        }
-        @media only screen and (max-width: 375px) {
-          font-size: 11px;
-          height: 20px;
-          width: 45px;
-        }
+      @media only screen and (max-width: 280px) {
+        font-size: 9px;
+        height: 18px;
+        width: 38px;
       }
     }
   }
