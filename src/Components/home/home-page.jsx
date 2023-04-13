@@ -8,7 +8,7 @@ import { SiGmail } from "react-icons/si";
 
 export default function HomePage() {
   return (
-    <div className="home-wraper">
+    <div className="home-wrapper">
       <div className="welcome-bar-on-top">Welcome</div>
       <img className="img" src="ja.png" alt="" />
       <h1 className="title-name-nl">Nikola Ležaić</h1>
@@ -20,7 +20,7 @@ export default function HomePage() {
         </div>
         +381 61 6652 987
       </div>
-      <div className="mail-instagram-git-wraper">
+      <div className="mail-instagram-git-wrapper">
         <div className="mail-link-icon-line-container">
           <a href="mailto:lezaicnikola10@gmail.com">
             <div className="mail-icon">

@@ -4,15 +4,15 @@ import { IoGameControllerOutline, IoLanguageOutline } from "react-icons/io5";
 export default function CardAbout() {
   return (
     <div className="card-about">
-      <div className="about">About</div>
+      <div className="about-title">About</div>
       <div className="wrapper-about">
-        <h3 className="skill-title">
+        <h3 className="skills-title">
           SKILLS SUMMARY{" "}
           <div className="skills-icon">
             <BsPersonGear />
           </div>
         </h3>
-        <ul className="skills">
+        <ul className="skills-list">
           <li>Customer Service</li>
           <li>Microsoft Office</li>
           <li>Computer Skills</li>
@@ -28,7 +28,7 @@ export default function CardAbout() {
             <IoGameControllerOutline />
           </div>
         </h3>
-        <ul className="hobbies">
+        <ul className="hobbies-list">
           <li>Gaming</li>
           <li>Programming</li>
         </ul>
@@ -38,7 +38,7 @@ export default function CardAbout() {
             <IoLanguageOutline />
           </div>
         </h3>
-        <ul className="languages">
+        <ul className="languages-list">
           <li>Serbian - Native</li>
           <li>English - Advanced</li>
         </ul>

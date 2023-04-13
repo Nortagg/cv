@@ -6,28 +6,28 @@ import { BsPerson } from "react-icons/bs";
 export default function CardProfile() {
   return (
     <div className="card-profile">
-      <div className="profile">Profile</div>
-      <div className="wraper">
+      <div className="profile-title">Profile</div>
+      <div className="main-wrapper">
         <div className="profile-left">
-          <h3 className="pp-container">
+          <h3 className="personal-profile-container">
             PERSONAL PROFILE{" "}
-            <div className="me-icon">
+            <div className="personal-profile-icon">
               <BsPerson />
             </div>
           </h3>
-          <p className="pp-text">
+          <p className="personal-profile-text">
             Accustomed to handling IT support, managing IT projects, and
             supporting various engineering departments with IT tools and
             applications.
           </p>
-          <h3 className="we-container">
+          <h3 className="work-experience-container">
             WORK EXPERIENCE{" "}
-            <div className="work-icon">
+            <div className="work-experience-icon">
               <MdWorkOutline />
             </div>
           </h3>
-          <p className="date-we1">July 2019 - January 2021</p>
-          <ul className="we-text1">
+          <p className="date-one">July 2019 - January 2021</p>
+          <ul className="work-experience-text-first">
             <li>
               I served as a professional soldier in the Serbian Army, stationed
               in Prokuplje.
@@ -38,8 +38,8 @@ export default function CardProfile() {
               outstanding results in my formation position.
             </li>
           </ul>
-          <p className="date-we2">August 2021 - March 2022</p>
-          <ul className="we-text2">
+          <p className="date-two">August 2021 - March 2022</p>
+          <ul className="work-experience-text-second">
             <li>Help Desk Representative Level 1 and 2 at NCR, Belgrade</li>
             <li>
               Collaborated with on-site Walmart employees to effectively
@@ -51,23 +51,23 @@ export default function CardProfile() {
           </ul>
         </div>
         <div className="profile-right">
-          <h3 className="eh-container">
+          <h3 className="education-history-container">
             EDUCATION HISTORY{" "}
-            <div className="school-icon">
+            <div className="education-history-icon">
               <IoSchoolOutline />
             </div>
           </h3>
-          <ul className="eh-text">
+          <ul className="education-history-text-first">
             <li>Tehnička škola ‘Prota Stevan Dimitrijević’, Aleksinac </li>
             <li>Computer electrician, IV degree | 2014 – 2018</li>
           </ul>
-          <h3 className="am-container">
+          <h3 className="about-me-container">
             ABOUT ME{" "}
-            <div className="laptop-icon">
+            <div className="about-me-icon">
               <IoLaptopOutline />
             </div>
           </h3>
-          <ul className="am-text">
+          <ul className="about-me-text-first">
             <li>
               From a young age, I was exposed to the world of computers and
               technology. Initially, I used computers primarily for

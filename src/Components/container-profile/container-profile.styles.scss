@@ -56,7 +56,7 @@
     top: 5rem;
   }
 
-  .profile {
+  .profile-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +74,7 @@
       font-size: 17px;
     }
   }
-  .wraper {
+  .main-wrapper {
     display: flex;
 
     @media only screen and (max-width: 540px) {
@@ -95,7 +95,7 @@
       @media only screen and (max-width: 280px) {
         padding: 5px;
       }
-      .pp-container {
+      .personal-profile-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -118,7 +118,7 @@
           font-size: 16px;
         }
 
-        .me-icon {
+        .personal-profile-icon {
           padding: 10px;
           font-size: 25px;
           display: flex;
@@ -130,7 +130,7 @@
           }
         }
       }
-      .pp-text {
+      .personal-profile-text {
         margin-left: 1rem;
         margin-right: 1rem;
         font-size: 16px;
@@ -145,7 +145,7 @@
           font-size: 12px;
         }
       }
-      .we-container {
+      .work-experience-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -168,7 +168,7 @@
           font-size: 16px;
         }
 
-        .work-icon {
+        .work-experience-icon {
           padding: 10px;
           font-size: 25px;
           display: flex;
@@ -180,7 +180,7 @@
           }
         }
       }
-      .date-we1 {
+      .date-one {
         margin-bottom: 0;
         display: flex;
         justify-content: center;
@@ -196,7 +196,7 @@
           margin-bottom: 0;
         }
       }
-      .we-text1 {
+      .work-experience-text-first {
         margin-right: 1rem;
         font-size: 16px;
         line-height: 1.4;
@@ -213,7 +213,7 @@
           padding-left: 20px;
         }
       }
-      .date-we2 {
+      .date-two {
         margin-bottom: 0;
         display: flex;
         justify-content: center;
@@ -228,7 +228,7 @@
           margin: 0;
         }
       }
-      .we-text2 {
+      .work-experience-text-second {
         margin-right: 1rem;
         font-size: 16px;
         line-height: 1.4;
@@ -258,7 +258,7 @@
         padding: 5px;
       }
 
-      .eh-container {
+      .education-history-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -281,7 +281,7 @@
           font-size: 16px;
         }
 
-        .school-icon {
+        .education-history-icon {
           padding: 10px;
           font-size: 25px;
           display: flex;
@@ -293,7 +293,7 @@
           }
         }
       }
-      .eh-text {
+      .education-history-text-first {
         font-size: 17px;
         line-height: 1.4;
         li {
@@ -315,7 +315,7 @@
           }
         }
       }
-      .am-container {
+      .about-me-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -338,7 +338,7 @@
           font-size: 16px;
         }
 
-        .laptop-icon {
+        .about-me-icon {
           padding: 10px;
           font-size: 25px;
           display: flex;
@@ -350,7 +350,7 @@
           }
         }
       }
-      .am-text {
+      .about-me-text-first {
         display: flex;
         justify-content: center;
         align-items: center;

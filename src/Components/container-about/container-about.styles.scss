@@ -45,7 +45,7 @@
     top: 5rem;
   }
 
-  .about {
+  .about-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +71,7 @@
     flex-direction: column;
     padding: 10px;
 
-    .skill-title {
+    .skills-title {
       text-shadow: 2px 2px 3px #000000;
       box-shadow: 0px 1px 3px black;
       height: 50px;
@@ -107,7 +107,7 @@
         }
       }
     }
-    .skills {
+    .skills-list {
       display: flex;
       flex-direction: column;
       line-height: 1.4;
@@ -158,7 +158,7 @@
         }
       }
     }
-    .hobbies {
+    .hobbies-list {
       display: flex;
       flex-direction: column;
       line-height: 1.4;
@@ -212,7 +212,7 @@
         }
       }
     }
-    .languages {
+    .languages-list {
       display: flex;
       flex-direction: column;
       line-height: 1.4;
