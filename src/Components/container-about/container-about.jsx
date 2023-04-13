@@ -5,7 +5,7 @@ export default function CardAbout() {
   return (
     <div className="card-about">
       <div className="about">About</div>
-      <div className="wraper-about">
+      <div className="wrapper-about">
         <h3 className="skill-title">
           SKILLS SUMMARY{" "}
           <div className="skills-icon">

@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <div className="contact-card">
       <div className="contact-title">Contact</div>
-      <div className="grid-wraper">
+      <div className="grid-wrapper">
         <ContactItem
           name="phone"
           text=" +381 61 6652 987"
