@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import CardAbout from "./Components/container-about/container-about";
 import CardProfile from "./Components/container-profile/container-profile";
 import HomePage from "./Components/home/home-page";

@@ -1,8 +1,7 @@
 .card-about {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 7rem;
+  margin: auto 0px;
   width: 25%;
   background-color: #6d5a2fc2;
   color: rgb(255, 255, 255);
@@ -42,7 +41,6 @@
   }
   @media only screen and (max-width: 280px) {
     width: 85%;
-    top: 5rem;
   }
 
   .about-title {
