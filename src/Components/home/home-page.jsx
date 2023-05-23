@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <div className="home-wrapper">
       <div className="welcome-bar-on-top">Welcome</div>
-      <img className="img" src="ja.png" alt="" />
+      <img className="img" src="me.jpg" alt="" />
       <h1 className="title-name-nl">Nikola Ležaić</h1>
       <h2 className="title-proffesion">IT HELP DESK SUPPORT</h2>
       <h3 className="contact-bar">CONTACT</h3>
