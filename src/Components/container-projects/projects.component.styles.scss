@@ -1,0 +1,206 @@
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin: auto 0px;
+  animation: fadeLeftToRight 1s ease forwards;
+
+  @keyframes fadeLeftToRight {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @media only screen and (max-width: 912px) {
+    width: 90%;
+  }
+  @media only screen and (max-width: 414px) {
+    margin-top: 4rem;
+    margin-bottom: auto;
+  }
+  @media only screen and (max-width: 280px) {
+    margin-top: 2rem;
+  }
+
+  .projects-main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(
+      #6d5a2fc2 0deg 180deg,
+      rgba(5, 5, 5, 0.8) 180deg 360deg
+    );
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px #000000;
+    width: 100%;
+    color: white;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    z-index: 1;
+    @media only screen and (max-width: 550px) {
+      font-size: 16px;
+      margin-top: 0rem;
+    }
+    @media only screen and (max-width: 414px) {
+      font-size: 14px;
+    }
+  }
+  .projects-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    .weather-app-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #6d5a2fc2;
+      box-shadow: 1px 1px 20px black;
+      .weather-app-title {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 78%;
+        @media only screen and (max-width: 550px) {
+          justify-content: center;
+          align-items: center;
+        }
+        .weather-app-title-text {
+          margin-top: 10px;
+          margin-bottom: 5px;
+          font-size: 18px;
+          color: whitesmoke;
+          text-shadow: 1px 1px 5px black;
+          @media only screen and (max-width: 700px) {
+            font-size: 14px;
+          }
+          @media only screen and (max-width: 550px) {
+            font-size: 12px;
+          }
+          @media only screen and (max-width: 414px) {
+            font-size: 10px;
+          }
+        }
+        .weather-app-subtitle {
+          margin-top: 5px;
+          margin-bottom: 10px;
+          font-size: 16px;
+          color: rgb(167, 163, 163);
+          @media only screen and (max-width: 700px) {
+            font-size: 12px;
+          }
+          @media only screen and (max-width: 550px) {
+            font-size: 10px;
+          }
+          @media only screen and (max-width: 414px) {
+            font-size: 9px;
+          }
+        }
+      }
+      .weather-img {
+        box-shadow: 0px 0px 5px black;
+        border-radius: 1.5rem;
+        width: 80%;
+        object-fit: cover;
+        transition: 0.4s;
+        &:hover {
+          border-radius: 0rem;
+        }
+        @media only screen and (max-width: 700px) {
+          width: 80%;
+        }
+        @media only screen and (max-width: 550px) {
+          width: 85%;
+          border-radius: 1rem;
+        }
+      }
+      .weather-description {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: whitesmoke;
+        text-shadow: 2px 2px 3px #000000;
+        line-height: 20px;
+        text-align: left;
+        @media only screen and (max-width: 912px) {
+          font-size: 14px;
+        }
+        @media only screen and (max-width: 700px) {
+          font-size: 12px;
+        }
+        @media only screen and (max-width: 550px) {
+          width: 90%;
+          text-align: center;
+          font-size: 10px;
+        }
+        @media only screen and (max-width: 414px) {
+          line-height: 13px;
+        }
+        @media only screen and (max-width: 280px) {
+          font-size: 8px;
+          line-height: 12px;
+          text-align: left;
+        }
+      }
+      .weather-link-holder {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+        @media only screen and (max-width: 550px) {
+          justify-content: center;
+          align-items: center;
+        }
+        .weather-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 35px;
+          width: 130px;
+          background-color: #6d5a2fc2;
+          font-size: 14px;
+          color: rgb(255, 255, 255);
+          text-shadow: 2px 2px 3px #000000;
+          box-shadow: 1px 1px 6px rgb(0, 0, 0);
+          text-decoration: none;
+          border-radius: 3rem;
+          transition: 0.5s;
+          margin: 10px 0;
+          &:hover {
+            background-color: #a07b2bf5;
+          }
+          &:active {
+            position: relative;
+            top: 1px;
+          }
+          @media only screen and (max-width: 700px) {
+            font-size: 10px;
+            height: 30px;
+            width: 90px;
+          }
+          @media only screen and (max-width: 550px) {
+            font-size: 9px;
+            height: 25px;
+            width: 80px;
+          }
+          @media only screen and (max-width: 280px) {
+            font-size: 8px;
+            height: 20px;
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+}

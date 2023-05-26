@@ -1,14 +1,14 @@
 .header-wraper {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
   width: 100%;
   height: 55px;
-  background: conic-gradient(
-    rgba(5, 5, 5, 0.6) 0deg 180deg,
-    #6d5a2fc2 180deg 360deg
-  );
+  background: conic-gradient(rgba(5, 5, 5) 0deg 180deg, #6d5a2f 180deg 360deg);
   box-shadow: 1px 1px 2px rgb(0, 0, 0);
   border-radius: 0rem 0rem 1rem 1rem;
+  z-index: 1;
   @media only screen and (max-width: 550px) {
     height: 45px;
   }
@@ -67,6 +67,7 @@
 
     .profile-route-text,
     .about-route-text,
+    .projects-route-text,
     .contact-route-text {
       display: flex;
       align-items: center;

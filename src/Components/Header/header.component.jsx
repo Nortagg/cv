@@ -16,6 +16,9 @@ export default function Header() {
         <Link className="about-route-text" to="/About">
           About
         </Link>
+        <Link className="projects-route-text" to="/Projects">
+          Projects
+        </Link>
         <Link className="contact-route-text" to="/Contact">
           Contact
         </Link>

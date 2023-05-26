@@ -12,7 +12,7 @@ export default function HomePage() {
       <div className="welcome-bar-on-top">Welcome</div>
       <img className="img" src="me.jpg" alt="" />
       <h1 className="title-name-nl">Nikola Ležaić</h1>
-      <h2 className="title-proffesion">IT HELP DESK SUPPORT</h2>
+      <h2 className="title-proffesion">WEB DEVELOPER</h2>
       <h3 className="contact-bar">CONTACT</h3>
       <div className="phone-number-container">
         <div className="phone-icon">
