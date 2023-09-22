@@ -6,7 +6,7 @@ import {
   AiOutlineInstagram,
   AiOutlineGithub,
 } from "react-icons/ai";
-export default function ContactPage() {
+export const ContactPage = () => {
   return (
     <div className="contact-card">
       <div className="contact-title">Contact</div>
@@ -37,4 +37,4 @@ export default function ContactPage() {
       </div>
     </div>
   );
-}
+};

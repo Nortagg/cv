@@ -27,20 +27,24 @@ export default function HomePage() {
               <SiGmail />
             </div>
           </a>
-          |
         </div>
-
         <div className="insta-link-icon-line-container">
-          <a target="_blank" href="https://www.instagram.com/lezaic_n/">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/lezaic_n/"
+            rel="noopener noreferrer"
+          >
             <div className="insta-icon">
               <AiOutlineInstagram />
             </div>
           </a>
-          |
         </div>
-
         <div className="git-link-icon-container">
-          <a target="_blank" href="https://github.com/Nortagg">
+          <a
+            target="_blank"
+            href="https://github.com/Nortagg"
+            rel="noopener noreferrer"
+          >
             <div className="git-icon">
               <AiOutlineGithub />
             </div>

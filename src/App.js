@@ -4,7 +4,7 @@ import CardAbout from "./Components/container-about/container-about";
 import CardProfile from "./Components/container-profile/container-profile";
 import HomePage from "./Components/home/home-page";
 import Header from "./Components/Header/header.component";
-import ContactPage from "./Components/Contact/contact";
+import { ContactPage } from "./Components/Contact/contact";
 import Projects from "./Components/container-projects/projects.component";
 
 function App() {

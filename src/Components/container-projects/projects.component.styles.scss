@@ -1,204 +1,350 @@
 .projects-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 60%;
+  height: auto;
+  width: 100%;
   margin: auto 0px;
-  animation: fadeLeftToRight 1s ease forwards;
-
-  @keyframes fadeLeftToRight {
-    from {
-      opacity: 0;
-      transform: translateX(-100px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  @media only screen and (max-width: 1024px) {
+    margin-top: 1.5rem;
   }
-  @media only screen and (max-width: 912px) {
-    width: 90%;
-  }
-  @media only screen and (max-width: 414px) {
-    margin-top: 4rem;
-    margin-bottom: auto;
-  }
-  @media only screen and (max-width: 280px) {
-    margin-top: 2rem;
+  @media only screen and (max-width: 430px) {
+    margin-top: 1rem;
   }
 
   .projects-main-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: conic-gradient(
-      #6d5a2fc2 0deg 180deg,
-      rgba(5, 5, 5, 0.8) 180deg 360deg
-    );
-    box-shadow: 1px 1px 15px rgb(0, 0, 0);
-    text-shadow: 2px 2px 3px #000000;
+    text-shadow: 1px 1px 3px #000000be;
     width: 100%;
     color: white;
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
-    margin-top: 4rem;
     margin-bottom: 0;
-    z-index: 1;
-    @media only screen and (max-width: 550px) {
-      font-size: 16px;
-      margin-top: 0rem;
+    margin-top: 1rem;
+    @media only screen and (max-width: 1024px) {
+      margin: 0;
     }
-    @media only screen and (max-width: 414px) {
-      font-size: 14px;
+    @media only screen and (max-width: 540px) {
+      font-size: 22px;
+    }
+    @media only screen and (max-width: 430px) {
+      font-size: 20px;
+    }
+    @media only screen and (max-width: 280px) {
+      font-size: 16px;
     }
   }
-  .projects-content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
 
-    .weather-app-content {
+  .project-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    .project-title {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      width: 1060px;
       flex-direction: column;
-      background-color: #6d5a2fc2;
-      box-shadow: 1px 1px 20px black;
-      .weather-app-title {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 78%;
-        @media only screen and (max-width: 550px) {
-          justify-content: center;
-          align-items: center;
-        }
-        .weather-app-title-text {
-          margin-top: 10px;
-          margin-bottom: 5px;
-          font-size: 18px;
-          color: whitesmoke;
-          text-shadow: 1px 1px 5px black;
-          @media only screen and (max-width: 700px) {
-            font-size: 14px;
-          }
-          @media only screen and (max-width: 550px) {
-            font-size: 12px;
-          }
-          @media only screen and (max-width: 414px) {
-            font-size: 10px;
-          }
-        }
-        .weather-app-subtitle {
-          margin-top: 5px;
-          margin-bottom: 10px;
-          font-size: 16px;
-          color: rgb(167, 163, 163);
-          @media only screen and (max-width: 700px) {
-            font-size: 12px;
-          }
-          @media only screen and (max-width: 550px) {
-            font-size: 10px;
-          }
-          @media only screen and (max-width: 414px) {
-            font-size: 9px;
-          }
-        }
+      text-align: left;
+      @media only screen and (max-width: 1024px) {
+        width: 980px;
       }
-      .weather-img {
-        box-shadow: 0px 0px 5px black;
-        border-radius: 1.5rem;
-        width: 80%;
-        object-fit: cover;
-        transition: 0.4s;
-        &:hover {
-          border-radius: 0rem;
-        }
-        @media only screen and (max-width: 700px) {
-          width: 80%;
-        }
-        @media only screen and (max-width: 550px) {
-          width: 85%;
-          border-radius: 1rem;
-        }
+      @media only screen and (max-width: 912px) {
+        width: 880px;
       }
-      .weather-description {
-        display: flex;
-        justify-content: flex-start;
-        width: 80%;
-        margin-top: 15px;
-        margin-bottom: 5px;
+      @media only screen and (max-width: 820px) {
+        width: 780px;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 740px;
+      }
+      @media only screen and (max-width: 540px) {
+        width: 520px;
+      }
+      @media only screen and (max-width: 430px) {
+        width: 400px;
+        text-align: center;
+      }
+
+      .project-title-text {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 18px;
         color: whitesmoke;
-        text-shadow: 2px 2px 3px #000000;
-        line-height: 20px;
-        text-align: left;
-        @media only screen and (max-width: 912px) {
+        text-shadow: 1px 1px 3px black;
+        @media only screen and (max-width: 700px) {
           font-size: 14px;
         }
+        @media only screen and (max-width: 550px) {
+          font-size: 12px;
+        }
+        @media only screen and (max-width: 280px) {
+          font-size: 11px;
+        }
+      }
+      .project-subtitle {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: rgb(167, 163, 163, 0.7);
         @media only screen and (max-width: 700px) {
           font-size: 12px;
         }
         @media only screen and (max-width: 550px) {
-          width: 90%;
-          text-align: center;
           font-size: 10px;
         }
-        @media only screen and (max-width: 414px) {
-          line-height: 13px;
+      }
+    }
+    .weather-img {
+      box-shadow: 0px 30px 25px -20px rgba(0, 0, 0, 0.5);
+      width: 1060px;
+      height: 600px;
+      object-fit: fill;
+      @media only screen and (max-width: 1024px) {
+        width: 980px;
+      }
+      @media only screen and (max-width: 912px) {
+        width: 880px;
+      }
+      @media only screen and (max-width: 820px) {
+        width: 780px;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 740px;
+        height: 400px;
+        object-fit: contain;
+        box-shadow: none;
+      }
+      @media only screen and (max-width: 540px) {
+        width: 520px;
+        height: 300px;
+      }
+      @media only screen and (max-width: 430px) {
+        width: 400px;
+        height: 240px;
+      }
+      @media only screen and (max-width: 400px) {
+        width: 350px;
+        height: 200px;
+      }
+      @media only screen and (max-width: 280px) {
+        width: 270px;
+        height: 160px;
+      }
+    }
+    .img-colection {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      @media only screen and (max-width: 540px) {
+        gap: 10px;
+      }
+      @media only screen and (max-width: 430px) {
+        gap: 8px;
+      }
+      .weather-img-2-1 {
+        width: 520px;
+        height: 600px;
+        object-fit: cover;
+        border-radius: 0.3rem;
+        transform: scale(1);
+        transition: transform 0.7s ease;
+        &:hover {
+          transform: scale(1.02);
+        }
+        @media only screen and (max-width: 1024px) {
+          width: 440px;
+        }
+        @media only screen and (max-width: 820px) {
+          width: 380px;
+        }
+        @media only screen and (max-width: 540px) {
+          width: 260px;
+          height: 260px;
+          object-fit: contain;
+        }
+        @media only screen and (max-width: 430px) {
+          width: 200px;
+          height: 200px;
+        }
+        @media only screen and (max-width: 400px) {
+          width: 180px;
+          height: 180px;
         }
         @media only screen and (max-width: 280px) {
-          font-size: 8px;
-          line-height: 12px;
-          text-align: left;
+          width: 130px;
+          height: 130px;
         }
       }
-      .weather-link-holder {
-        display: flex;
-        justify-content: flex-start;
-        width: 80%;
-        @media only screen and (max-width: 550px) {
-          justify-content: center;
-          align-items: center;
+      .weather-img-2 {
+        width: 530px;
+        height: 600px;
+        object-fit: fill;
+        border-radius: 0.3rem;
+        transform: scale(1);
+        transition: transform 0.7s ease;
+        &:hover {
+          transform: scale(1.02);
         }
-        .weather-link {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 35px;
+        @media only screen and (max-width: 1024px) {
+          width: 440px;
+        }
+        @media only screen and (max-width: 820px) {
+          width: 380px;
+        }
+        @media only screen and (max-width: 540px) {
+          width: 260px;
+          height: 260px;
+          object-fit: contain;
+        }
+        @media only screen and (max-width: 430px) {
+          width: 200px;
+          height: 200px;
+        }
+        @media only screen and (max-width: 400px) {
+          width: 180px;
+          height: 180px;
+        }
+        @media only screen and (max-width: 280px) {
           width: 130px;
-          background-color: #6d5a2fc2;
-          font-size: 14px;
-          color: rgb(255, 255, 255);
-          text-shadow: 2px 2px 3px #000000;
-          box-shadow: 1px 1px 6px rgb(0, 0, 0);
-          text-decoration: none;
-          border-radius: 3rem;
-          transition: 0.5s;
-          margin: 10px 0;
-          &:hover {
-            background-color: #a07b2bf5;
-          }
-          &:active {
-            position: relative;
-            top: 1px;
-          }
-          @media only screen and (max-width: 700px) {
-            font-size: 10px;
-            height: 30px;
-            width: 90px;
-          }
-          @media only screen and (max-width: 550px) {
-            font-size: 9px;
-            height: 25px;
-            width: 80px;
-          }
-          @media only screen and (max-width: 280px) {
-            font-size: 8px;
-            height: 20px;
-            width: 70px;
-          }
+          height: 130px;
+        }
+      }
+    }
+    .project-description {
+      display: flex;
+      justify-content: flex-start;
+      width: 1050px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      color: whitesmoke;
+      text-shadow: 1px 1px 3px #000000;
+      line-height: 27px;
+      text-align: left;
+      @media only screen and (max-width: 1024px) {
+        width: 980px;
+        text-wrap: balance;
+        text-align: center;
+      }
+      @media only screen and (max-width: 912px) {
+        width: 880px;
+      }
+      @media only screen and (max-width: 820px) {
+        width: 780px;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 740px;
+      }
+      @media only screen and (max-width: 540px) {
+        width: 520px;
+        font-size: 14px;
+        line-height: 25px;
+      }
+      @media only screen and (max-width: 430px) {
+        width: 400px;
+        font-size: 12px;
+        line-height: 22px;
+      }
+      @media only screen and (max-width: 400px) {
+        width: 360px;
+        font-size: 10px;
+        line-height: 20px;
+      }
+      @media only screen and (max-width: 280px) {
+        width: 260px;
+        line-height: 19px;
+      }
+    }
+    .project-link-holder {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      width: 1060px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      @media only screen and (max-width: 1024px) {
+        width: 980px;
+      }
+      @media only screen and (max-width: 912px) {
+        width: 880px;
+      }
+      @media only screen and (max-width: 820px) {
+        width: 780px;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 740px;
+      }
+      @media only screen and (max-width: 540px) {
+        width: 520px;
+      }
+      @media only screen and (max-width: 430px) {
+        width: 400px;
+        justify-content: center;
+      }
+      @media only screen and (max-width: 280px) {
+        margin-bottom: 35px;
+      }
+
+      .project-link-to-web {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 130px;
+        background-color: rgba(53, 49, 75, 0.6);
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 3px #000000;
+        box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+        text-decoration: none;
+        border-radius: 0.5rem;
+        transition: 0.5s ease;
+        &:hover {
+          background-color: rgba(53, 49, 75);
+        }
+        &:active {
+          position: relative;
+          top: 1px;
+        }
+        @media only screen and (max-width: 768px) {
+          font-size: 12px;
+          height: 30px;
+          width: 100px;
+        }
+
+        @media only screen and (max-width: 280px) {
+          font-size: 8px;
+          height: 20px;
+          width: 70px;
+        }
+      }
+      .project-link-git {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(53, 49, 75, 0.6);
+        font-size: 30px;
+        border-radius: 20rem;
+        transition: 0.5s ease;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+        &:hover {
+          background-color: rgba(53, 49, 75);
+        }
+        &:active {
+          position: relative;
+          top: 1px;
+        }
+        @media only screen and (max-width: 768px) {
+          font-size: 24px;
+          height: 30px;
+          width: 30px;
         }
       }
     }
