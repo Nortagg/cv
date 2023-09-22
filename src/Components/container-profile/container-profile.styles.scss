@@ -7,7 +7,7 @@
     #6d5a2fc2 180deg 360deg
   );
   color: rgb(255, 255, 255);
-  width: 70rem;
+  width: 65rem;
   box-shadow: 0px 30px 25px -20px rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
   opacity: 0;
@@ -199,6 +199,7 @@
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         text-shadow: 2px 2px 3px #000000;
         border-radius: 0.5rem 0rem 0.5rem 0rem;
+
         @media only screen and (max-width: 600px) {
           font-size: 16px;
           height: 40px;
@@ -216,8 +217,9 @@
         }
       }
       .education-history-text-first {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.4;
+
         @media only screen and (max-width: 600px) {
           font-size: 14px;
           text-wrap: balance;
